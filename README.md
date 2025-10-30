@@ -22,7 +22,12 @@ through the variable `current_num` will either increment or decrement based on b
 | PC0–PC3   | D1-D4     | -           | Digit select | Active-low control     |
 | PA0       | -         | –           | Button 1 | Increment displayed number |
 | PA1       | -         | –           | Button 2 | Decrement displayed number |
-| -         | A-G       | Q0-Q6       | 7Segment connection to Shift Register | Light up segments to display numbers |
+| -         | A-G       | QA-QG       | 7Segment connection to Shift Register | Light up segments to display numbers |
+
+<div align="center">
+  <img src="https://cdn.discordapp.com/attachments/717497591205462036/1433346517057536021/image.png?ex=69045b77&is=690309f7&hm=5b2bbcaf581f086bf9799a11819ca4055cf773ad94b1d305a2c150fcf32691f6" alt="5641AS Pins" width="400"/>
+</div>
+
 ---
 
 ## Files
@@ -36,7 +41,7 @@ through the variable `current_num` will either increment or decrement based on b
 - `main.c` – Initializes peripherals and runs the main loop.
 - `SSEG.c` / `SSEG.h` – Handles display multiplexing and SPI communication.
 
-## 🔧 How to Build and Run
+## How to Build and Run
 
 1. Open the project in **STM32CubeIDE** or **VSCode** with STM32 CMake Tools.
 2. Open the `.ioc` file to restore pin mappings and peripheral configuration.
@@ -45,3 +50,8 @@ through the variable `current_num` will either increment or decrement based on b
 5. Flash the firmware to the board.
 6. Press **PA0** / **PA1** to increment/decrement the displayed number.
 
+## References:
+[1] Mikrotronics Academy, "STM32 for Beginners | Multiplexing Seven Segment Displays using HAL Libraries GPIO," YouTube, https://www.youtube.com/watch?v=7CjRpUFiBfY (accessed Oct. 29, 2025). 
+[2] STMicroelectronics, STR71X GPIO driving four 7-segment display, https://www.st.com/resource/en/application_note/cd00015425-str71x-gpio-driving-four-7segment-display-stmicroelectronics.pdf (accessed Oct. 15, 2025). 
+[3] ChatGPT, "Code error fix," OpenAI, Oct. 2025. 
+Helped with debugging, suggestions of approach for interrupt code and smooth debouncing, and helped with how to have the digit displays split so that the numbers do not all change with button press at the same time
