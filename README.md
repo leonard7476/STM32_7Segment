@@ -25,11 +25,12 @@ and a 74HC595 shift register via the SPI interface.
 ---
 
 ## Files
+
 - `Core/Inc` — Header files
 - `Core/Src` — Source files
---**Highlighted Files**
-- `main.c` – Initializes peripherals and runs the main loop.
-- `SSEG.c` / `SSEG.h` – Handles display multiplexing and SPI communication.
+  - **Highlighted Files**
+    - `main.c` – Initializes peripherals and runs the main loop.
+    - `SSEG.c` / `SSEG.h` – Handles display multiplexing and SPI communication.
 - `CMakeLists.txt` – Build configuration for STM32Cube and CMake.
 
 ## 🔧 How to Build
