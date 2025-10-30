@@ -59,6 +59,8 @@ through the variable `current_num` will either increment or decrement based on b
 
 ## References:
 [1] Mikrotronics Academy, "STM32 for Beginners | Multiplexing Seven Segment Displays using HAL Libraries GPIO," YouTube, https://www.youtube.com/watch?v=7CjRpUFiBfY (accessed Oct. 29, 2025). 
+
 [2] STMicroelectronics, STR71X GPIO driving four 7-segment display, https://www.st.com/resource/en/application_note/cd00015425-str71x-gpio-driving-four-7segment-display-stmicroelectronics.pdf (accessed Oct. 15, 2025). 
+
 [3] ChatGPT, "Code error fix," OpenAI, Oct. 2025. 
 Helped with debugging, suggestions of approach for interrupt code and smooth debouncing, and helped with how to have the digit displays split so that the numbers do not all change with button press at the same time
