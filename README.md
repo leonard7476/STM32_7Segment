@@ -1,7 +1,8 @@
 # STM32 7-Segment Display with Shift Register (SPI Interface)
 
 This project drives a 4-digit 7-segment display (5641AS) using an STM32F0DISCOVERY microcontroller
-and a 74HC595 shift register via the SPI interface.
+and a 74HC595 shift register via the SPI interface. Using two switches, the number displayed
+through the variable `current_num` will either increment or decrement based on button press.
 
 ## Features
 - Displays a 4-digit number using SPI communication.
