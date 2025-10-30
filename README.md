@@ -22,7 +22,7 @@ through the variable `current_num` will either increment or decrement based on b
 | PC0–PC3   | D1-D4     | -           | Digit select | Active-low control     |
 | PA0       | -         | –           | Button 1 | Increment displayed number |
 | PA1       | -         | –           | Button 2 | Decrement displayed number |
-| -         | A-G       | Q0-Q6       | 7Segment connection to Shift Register | Lights up segments to show numbers |
+| -         | A-G       | Q0-Q6       | 7Segment connection to Shift Register | Light up segments to display numbers |
 ---
 
 ## Files
