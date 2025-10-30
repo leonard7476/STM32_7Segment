@@ -36,7 +36,12 @@ through the variable `current_num` will either increment or decrement based on b
 - `main.c` – Initializes peripherals and runs the main loop.
 - `SSEG.c` / `SSEG.h` – Handles display multiplexing and SPI communication.
 
-## 🔧 How to Build
-1. Open in **STM32CubeIDE** or **VSCode** with **STM32 CMake Tools**.
-2. Connect your STM32 board.
-3. Build and flash to your board.
+## 🔧 How to Build and Run
+
+1. Open the project in **STM32CubeIDE** or **VSCode** with STM32 CMake Tools.
+2. Open the `.ioc` file to restore pin mappings and peripheral configuration.
+3. Connect your STM32 board.
+4. Build the project (`Build` / `CMake Build`).
+5. Flash the firmware to the board.
+6. Press **PA0** / **PA1** to increment/decrement the displayed number.
+
