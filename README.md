@@ -29,6 +29,7 @@ and a 74HC595 shift register via the SPI interface.
 - `Core/Inc` — Header files
 - `Core/Src` — Source files
 - `CMakeLists.txt` — Build configuration for STM32Cube and CMake
+- `STM32_7Segment.ioc` — CubeIDE project configuration file (pin mappings, peripheral setup)
 
 **Highlighted Files:**
 - `main.c` – Initializes peripherals and runs the main loop.
