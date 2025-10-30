@@ -29,6 +29,11 @@ through the variable `current_num` will either increment or decrement based on b
 <div align="center">
   <img src="https://cdn.discordapp.com/attachments/717497591205462036/1433346517057536021/image.png?ex=69045b77&is=690309f7&hm=5b2bbcaf581f086bf9799a11819ca4055cf773ad94b1d305a2c150fcf32691f6" alt="5641AS Pins" width="400"/>
 </div>
+<div align="center">
+  <img src="https://cdn.discordapp.com/attachments/717497591205462036/1433348934700371968/image.png?ex=69045db8&is=69030c38&hm=db2bef6feb337d25e5012452fa0f9c715255c528f00e4bcd19978ab8395a2670"
+       alt="Some descriptive alt text"
+       width="400"/>
+</div>
 
 ---
 
