@@ -1,0 +1,22 @@
+# STM32 build directories
+build/
+Debug/
+Release/
+
+# CubeIDE / VSCode configuration
+.settings/
+.vscode/
+*.launch
+*.log
+
+# STM32 generated / compiled files
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+
+# Temporary / OS-specific files
+.DS_Store
+Thumbs.db
