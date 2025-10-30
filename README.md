@@ -23,6 +23,7 @@ through the variable `current_num` will either increment or decrement based on b
 | PA0       | -         | –           | Button 1 | Increment displayed number |
 | PA1       | -         | –           | Button 2 | Decrement displayed number |
 | -         | A-G       | QA-QG       | 7Segment connection to Shift Register | Light up segments to display numbers |
+
 (O̅E̅->GND)
 (S̅R̅C̅L̅R̅->VCC)
 <div align="center">
