@@ -23,7 +23,8 @@ through the variable `current_num` will either increment or decrement based on b
 | PA0       | -         | –           | Button 1 | Increment displayed number |
 | PA1       | -         | –           | Button 2 | Decrement displayed number |
 | -         | A-G       | QA-QG       | 7Segment connection to Shift Register | Light up segments to display numbers |
-
+(O̅E̅->GND)
+(S̅R̅C̅L̅R̅->VCC)
 <div align="center">
   <img src="https://cdn.discordapp.com/attachments/717497591205462036/1433346517057536021/image.png?ex=69045b77&is=690309f7&hm=5b2bbcaf581f086bf9799a11819ca4055cf773ad94b1d305a2c150fcf32691f6" alt="5641AS Pins" width="400"/>
 </div>
